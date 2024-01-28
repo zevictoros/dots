@@ -1,16 +1,13 @@
 import Image from 'next/image';
+import BackgroundFirst from './styles/background';
 
 export default function Home() {
   return (
     <main>
-      <Image
-        src="/background-01.jpg"
-        alt="background"
-        className=""
-        width={100}
-        height={24}
-        priority
-      />
+      <BackgroundFirst />
+      <div>
+        <h1>Hello world</h1>
+      </div>
     </main>
   );
 }
