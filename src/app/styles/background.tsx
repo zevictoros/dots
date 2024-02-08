@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import backgrond_first from '../../../public/background-01.jpg';
+import backgrond_first from '../../../public/background-02.jpg';
 
 export default function BackgroundFirst() {
   return (
@@ -8,9 +8,11 @@ export default function BackgroundFirst() {
       src={backgrond_first}
       placeholder="blur"
       quality={100}
-      fill
-      sizes="100vw"
       style={{
+        position: 'absolute',
+        inset: '0px',
+        width: '100%',
+        height: '170%',
         objectFit: 'cover',
         zIndex: '-1'
       }}
