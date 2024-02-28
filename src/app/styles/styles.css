@@ -1,0 +1,7 @@
+button {
+    transition: all 0.3s ease-in;
+}
+
+.avaliacao {
+    background-image: url(../../../public/background-01.jpg);
+}

@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import backgrond_first from '../../../public/background-02.jpg';
+import background from '../../../public/background.jpg';
 
-export default function BackgroundFirst() {
+export default function Background() {
   return (
     <Image
       alt="background"
-      src={backgrond_first}
+      src={background}
       placeholder="blur"
       quality={100}
       style={{

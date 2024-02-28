@@ -1,14 +1,15 @@
 import Image from 'next/image';
-import BackgroundFirst from './styles/background';
+import Background from './styles/background';
 import Navbar from './navbar';
 import dashboard from '../../public/dashboard.jpg';
 import mobile from '../../public/mobile.jpg';
+import './styles/styles.css';
 
 export default function Home() {
   return (
     <main>
       <Navbar />
-      <BackgroundFirst />
+      <Background />
       <div className="flex justify-between max-w-[980px] m-auto pt-[110px] items-center">
         <h1 className="text-[68px] font-bold pl-5">
           Dados rápidos <br /> e seguros
@@ -39,7 +40,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="m-auto max-w-[980px] pl-10">
+      <div className="m-auto max-w-[980px] pl-10 mb-20">
         <h1 className="text-[#3C53F4] text-[58px] font-bold my-[50px]">
           Dados confiáveis sempre
         </h1>
@@ -83,6 +84,26 @@ export default function Home() {
                 borderRadius: '30px'
               }}
             />
+          </div>
+        </div>
+      </div>
+
+      <div className="avaliacao">
+        <div className="flex flex-col h-screen justify-around items-center m-auto max-w-[45vw] py-12">
+          <h1 className="text-[58px] text-center font-bold">
+            Entenda melhor os seus usuários
+          </h1>
+          <p className="text-center">
+            Lorem ipsum dolor sit amet. Ut accusantium error est voluptas
+            ratione sed inventore expedita a quisquam magni ut dolores tempore
+            eos repellat ipsam vel voluptatem quis. Cum maxime voluptatem qui
+            laboriosam quam non dignissimos fugit ut repudiandae odio id numquam
+            sunt et autem dolor et autem aliquam.
+          </p>
+          <div className="">
+            <button className="px-10 py-3 border rounded-3xl border-white hover:bg-white hover:text-[#3C53F4] hover:border-[#3C53F4]">
+              Avaliação
+            </button>
           </div>
         </div>
       </div>

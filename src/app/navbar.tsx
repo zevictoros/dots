@@ -16,8 +16,10 @@ export default function Navbar() {
             <li className="hover:text-blue-500 cursor-pointer py-1">
               Parceiros
             </li>
-            <li className="bg-black text-white rounded-full hover:bg-white hover:text-black py-2 px-4 cursor-pointer">
-              Obter demo
+            <li>
+              <button className="bg-black text-white rounded-full hover:bg-white hover:text-black py-2 px-4 cursor-pointer">
+                Obter demo
+              </button>
             </li>
           </ul>
         </nav>
